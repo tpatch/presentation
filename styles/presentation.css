@@ -1,0 +1,46 @@
+#presentation { font-size: 150%; }
+
+#presentation nav { position: fixed; background: #fff; background: rgba(255, 255, 255, .75); display: block; z-index: 50; }
+#presentation nav ol { list-style: none; }
+#main #presentation nav .active a { font-weight: bold; }
+
+#presentation .slides { display: block; height: 600px; width: 800px; margin: 8px auto; padding: 0; background: #eee; overflow: auto; }
+.js #presentation .slides { overflow: hidden; }
+#presentation .slides .slide { position: relative; display: block; height: 100%; width: 100%; margin-bottom: 4px; }
+
+#main #presentation h1, #main #presentation h2, #main #presentation h3, #main #presentation h4, #main #presentation h5, #main #presentation h6
+	{ margin-bottom: 0; }
+
+#presentation a span { font-size: 80%; }
+
+#presentation ol { padding: 0 0 1.0em 20px; list-style-type: decimal; }
+#presentation ol ol, #presentation ol ul
+	{ padding-bottom: 0; }
+#presentation ul { padding: 0 0 1.0em 20px; list-style-type: disc; }
+#presentation ul ol, #presentation ul ul
+	{ padding-bottom: 0; }
+#presentation ul>li>ul { list-style-type: circle; }
+#presentation ul>li>ul ul { list-style-type: square; }
+
+#presentation .footnote { position: absolute; left: 2%; bottom: 0; font-size: 0.8em; font-style: italic; }
+
+#presentation .note { }
+
+#presentation #shortcuts { display: none; position: absolute; top: 0; left: 0; z-index: 90; height: 100%; width: 100%; background: #fff; background: rgba(255, 255, 255, .9); }
+#presentation #shortcuts .wrap { width: 80%; height: 60%; margin: 10% auto 0 auto; }
+#presentation .show { display: block !important; }
+
+/** Layouts **/
+#presentation .layout_title h1 { padding-top: 20%; padding-bottom: 4%; }
+#presentation .layout_title h1, #presentation .layout_title p, #presentation .layout_title ul, #presentation .layout_title ol
+	 { width: 80%; margin-left: auto; margin-right: auto; }
+
+#main #presentation .layout_bullets h3 { margin-bottom: 3%; }
+#presentation .layout_bullets ul, #presentation .layout_bullets ol
+	{ margin-left: 10%; margin-right: 5%; }
+#presentation .layout_bullets ul li, #presentation .layout_bullets ol li
+	{ margin-bottom: 4%; line-height: 1.2; }
+
+#presentation .layout_questions h2 { padding-top: 30%; padding-bottom: 4%; }
+#presentation .layout_questions h2, #presentation .layout_questions h3
+	 { width: 80%; margin-left: auto; margin-right: auto; }
