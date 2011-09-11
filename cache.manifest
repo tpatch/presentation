@@ -1,20 +1,10 @@
 CACHE MANIFEST
-# rev 13
+# rev 1
 
-../_scripts/jquery-1.4.2.min.js
-../_scripts/scripts.min.js
+styles/presentation.min.css
 
-../_styles/reset.css
-../_styles/presentation.css
-../_styles/styles.css
+scripts/html5.js
+scripts/jquery.min.js
+scripts/presentation.min.js
 
-styles.css
-images/slide_frameworks.png
-images/slide_industry.png
-images/slide_languages.png
-images/slide_local.png
-images/slide_model.png
-images/slide_questions.png
-images/slide_steal.png
-images/slide_title.png
-images/slide_tools.png
+index.html
